@@ -9,7 +9,7 @@ from supabase import create_client
 # ---------------------------------------------------------------------------
 # EDIT THESE BEFORE RUNNING
 # ---------------------------------------------------------------------------
-PROJECT_ID = "5136939842535424"       # e.g. RAC, FX RAC, ACIMA AMC, ACIMA Core
+PROJECT_ID = "5790171803680768"       # e.g: ACIMA Core
 START_DATE = "2026-06-01T00:00:00Z"   # inclusive
 END_DATE = "2026-07-01T00:00:00Z"     # exclusive (so this covers all of June)
 # ---------------------------------------------------------------------------
