@@ -23,7 +23,7 @@ jobs:
         env:
           SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
           SUPABASE_KEY: ${{ secrets.SUPABASE_KEY }}
-        run: export-by-project-date.py
+        run: python export-by-project-date.py
 
       - name: Upload Excel file
         uses: actions/upload-artifact@v4
